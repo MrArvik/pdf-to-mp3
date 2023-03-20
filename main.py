@@ -1,1 +1,1 @@
-#will use < pdfplumber >
+#will use < pdfplumber, gtts, mb tkinter>
