@@ -1,1 +1,2 @@
-# try to use tkinter, pdfplumber, PyPDF2
+# try to use tkinter, (pdfplumber, PyPDF2 - > mb without it)
+# should use gtts, tika (from tika import parser)
