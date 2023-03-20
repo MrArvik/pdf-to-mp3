@@ -1,1 +1,1 @@
-#will use < pdfplumber, gtts, mb tkinter>
+# try to use tkinter, pdfplumber, PyPDF2
