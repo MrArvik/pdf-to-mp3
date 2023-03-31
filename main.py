@@ -8,6 +8,7 @@ from tkinter import *
 from tkinter import ttk, filedialog
 from tkinter.filedialog import askopenfile
 from tkinter import filedialog as fd
+from tkinter import messagebox
 import gtts
 from tika import parser
 import codecs
@@ -32,7 +33,7 @@ def select_file():
         initialdir='/',
         filetypes=filetypes)
 
-    fileinfo = fd.showinfo(
+    fileinfo = messagebox.showinfo(
         title='Selected File',
         message=filename
     )
@@ -47,12 +48,9 @@ open_button.pack(expand=True)
 
 
 
-#pdf_file = parser.from_file('225010558.pdf')
+#pdf_file = parser.from_file(filename())
 #tts = gtts.gTTS(pdf_file['content'], lang='ru')
 #tts.save('audiotest1.mp3')
-
-
-
 
 
 window.mainloop()
